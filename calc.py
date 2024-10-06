@@ -13,9 +13,9 @@ def insert_values(value):
 
 
 def add():
-     num1, num2 = get_values()
-     res = num1 + num2
-     insert_values(res)
+    num1, num2 = get_values()
+    res = num1 + num2
+    insert_values(res)
 
 
 def sub():
@@ -62,3 +62,6 @@ answer = tk.Label(window, text="Ответ:")
 answer.place(x=100, y=279)
 window.mainloop()
 
+"""
+Для создания приложения(.EXE), необходимо, в терминале, прописать auto-py-to-exe
+"""
